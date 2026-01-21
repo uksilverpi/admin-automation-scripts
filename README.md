@@ -42,6 +42,18 @@ Each script will include:
 
 ---
 
+## Scripts Included
+
+### 1. Daily Log Generator (`daily_log_generator.py`)
+Generates a Markdown log file for the current day with sections for Summary, Key Tasks, and Notes.  
+- Automatically names the file based on today's date  
+- Prevents overwriting an existing log  
+- Useful for journaling, daily notes, or tracking progress  
+
+---
+
 ## Status
 
 This repository is in its early setup stage and will be updated gradually.
+
+---
