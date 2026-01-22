@@ -185,44 +185,15 @@ All scripts in this repository have been created, tested, and validated.
 New tools and documentation will be added over time.
 
 ---
-<table>
-<tr>
+<a style="display:inline-block;padding:8px 14px;background:#0A66C2;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;">
+View Script
+</a>
 
-<td width="33%" valign="top">
+<a style="display:inline-block;padding:8px 14px;background:#e0e0e0;color:#000;text-decoration:none;border-radius:6px;font-weight:600;">
+View Script
+</a>
 
-<h3 title="Creates a daily markdown journal with automatic date naming.">Daily Log Generator</h3>
+<a style="display:inline-block;padding:8px 14px;border:2px solid #0A66C2;color:#0A66C2;text-decoration:none;border-radius:6px;font-weight:600;">
+View Script
+</a>
 
-<p title="Generates a neatly structured markdown file with Summary, Key Tasks, and Notes.">
-
-</p>
-
-<a href="./daily_log_generator.py" title="Open the daily_log_generator.py script">View Script</a>
-
-</td>
-
-<td width="33%" valign="top">
-
-<h3 title="Generates clean markdown templates for meetings and documentation.">Template Generator</h3>
-
-<p title="Creates a markdown file with Overview, Details, and Next Steps sections.">
-
-</p>
-
-<a href="./template_generator.py" title="Open the template_generator.py script">View Script</a>
-
-</td>
-
-<td width="33%" valign="top">
-
-<h3 title="Automatically sorts files into folders based on their extension.">Intelligent Folder Organiser</h3>
-
-<p title="Ideal for cleaning messy folders—creates Images, Documents, Archives, and other categories automatically.">
-
-</p>
-
-<a href="./intelligent_folder_organiser.py" title="Open the intelligent_folder_organiser.py script">View Script</a>
-
-</td>
-
-</tr>
-</table>
