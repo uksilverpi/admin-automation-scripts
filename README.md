@@ -1,14 +1,14 @@
 # Admin Automation Scripts
 
-A collection of practical Python automation tools designed to reduce repetitive admin work, improve productivity, and support real-world IT, data, and system tasks.
+A collection of practical Python automation tools designed to reduce repetitive admin work, streamline workflows, and support real-world IT, data, and system tasks.
 
-Every script in this repository is lightweight, useful, and intentionally written for clarity and maintainability.
+Every script in this repository is intentionally lightweight, readable, and built for everyday productivity.
 
 ---
 
 ## What This Repo Includes
 
-A full suite of scripts covering:
+A growing suite of tools for:
 
 - File and folder organisation  
 - Naming consistency and batch renaming  
@@ -18,25 +18,25 @@ A full suite of scripts covering:
 - Backup and workflow safety  
 - General admin automation  
 
-This repository continues to grow as more useful scripts are added.
+This repository will continue to expand with more scripts and documentation.
 
 ---
 
 ## Skills Demonstrated
 
 - Python fundamentals  
-- File handling & system operations  
-- Troubleshooting workflows  
+- File handling and automation  
+- System operations and diagnostics  
 - Data parsing and conversion  
-- Process automation  
-- Clean documentation and structured thinking  
-- IT support–friendly tooling  
+- Structured troubleshooting  
+- Clean documentation  
+- IT-support–friendly tooling  
 
 ---
 
 ## Usage
 
-All scripts can be run from Command Prompt (Windows) or Terminal (macOS):
+All scripts can be run using Command Prompt (Windows) or Terminal (macOS):
 
 ```
 py script_name.py
@@ -48,184 +48,140 @@ or
 python script_name.py
 ```
 
-Each script provides its own prompts and usage instructions.
+Each script provides its own prompts and instructions.
 
 ---
 
 # Scripts Included  
-Click any script below to expand its details and open the file.
+Below is a clean grid view of all automation tools included in this project.
 
----
+<br>
 
-<details>
-<summary><strong>1. Daily Log Generator</strong> – (click to expand)</summary>
+<table>
+<tr>
 
-Creates a Markdown log file for the current day with sections for Summary, Key Tasks, and Notes.
+<td width="33%" valign="top">
 
-- Automatically names the file using today’s date  
-- Prevents overwriting an existing log  
-- Perfect for daily notes, journaling, or tracking work  
+<h3>Daily Log Generator</h3>
+<p>Creates a daily markdown log with Summary, Tasks, and Notes sections.</p>
 
-👉 **Open script:**  
-[daily_log_generator.py](./daily_log_generator.py)
+<a href="./daily_log_generator.py">View Script</a>
 
-</details>
+</td>
 
----
+<td width="33%" valign="top">
 
-<details>
-<summary><strong>2. Template Generator</strong> – (click to expand)</summary>
+<h3>Template Generator</h3>
+<p>Creates a markdown file using a clean template for notes and documentation.</p>
 
-Creates a Markdown document using a clean boilerplate template (Overview, Details, Next Steps).
+<a href="./template_generator.py">View Script</a>
 
-- Title becomes a cleaned filename  
-- Automatically inserts today’s date  
-- Ideal for meeting notes and documentation  
+</td>
 
-👉 **Open script:**  
-[template_generator.py](./template_generator.py)
+<td width="33%" valign="top">
 
-</details>
+<h3>Intelligent Folder Organiser</h3>
+<p>Sorts files into folders based on file extension (Images, Documents, Text, Archives, etc.).</p>
 
----
+<a href="./intelligent_folder_organiser.py">View Script</a>
 
-<details>
-<summary><strong>3. Intelligent Folder Organiser</strong> – (click to expand)</summary>
+</td>
 
-Sorts files into extension-based folders such as Images, Documents, Text, Archives, etc.
+</tr>
+<tr>
 
-- Avoids overwriting  
-- Automatically creates missing folders  
-- Great for cleaning messy directories  
+<td width="33%" valign="top">
 
-👉 **Open script:**  
-[intelligent_folder_organiser.py](./intelligent_folder_organiser.py)
+<h3>Multi-File Renamer</h3>
+<p>Batch-renames files using a prefix and numbered sequence.</p>
 
-</details>
+<a href="./multi_file_renamer.py">View Script</a>
 
----
+</td>
 
-<details>
-<summary><strong>4. Multi-File Renamer</strong> – (click to expand)</summary>
+<td width="33%" valign="top">
 
-Renames all files of a selected extension to a consistent numbered pattern.
+<h3>Duplicate File Detector</h3>
+<p>Finds duplicate files by hashing contents with SHA-256.</p>
 
-Example:
+<a href="./duplicate_file_detector.py">View Script</a>
 
-`notes_1.txt`  
-`notes_2.txt`  
-`notes_3.txt`
+</td>
 
-- Choose prefix  
-- Choose starting index  
-- Ensures tidy, organised filenames  
+<td width="33%" valign="top">
 
-👉 **Open script:**  
-[multi_file_renamer.py](./multi_file_renamer.py)
+<h3>System Health Checker</h3>
+<p>Prints OS info, disk usage, and optional CPU/RAM usage.</p>
 
-</details>
+<a href="./system_health_checker.py">View Script</a>
 
----
+</td>
 
-<details>
-<summary><strong>5. Duplicate File Detector</strong> – (click to expand)</summary>
+</tr>
+<tr>
 
-Detects duplicate files by hashing file contents (SHA-256), not by filename.
+<td width="33%" valign="top">
 
-- Finds duplicates even with different names  
-- Useful for storage clean-ups  
-- Helps manage shared drives  
+<h3>Network Ping Monitor</h3>
+<p>Pings hosts (default or from hosts.txt) and reports UP/DOWN network status.</p>
 
-👉 **Open script:**  
-[duplicate_file_detector.py](./duplicate_file_detector.py)
+<a href="./network_ping_monitor.py">View Script</a>
 
-</details>
+</td>
 
----
+<td width="33%" valign="top">
 
-<details>
-<summary><strong>6. System Health Checker</strong> – (click to expand)</summary>
+<h3>CSV to JSON Converter</h3>
+<p>Converts any CSV file into structured JSON format.</p>
 
-Produces a system report including:
+<a href="./csv_to_json_converter.py">View Script</a>
 
-- OS version  
-- Python version  
-- Disk usage  
-- Optional CPU/RAM usage (via `psutil`)
+</td>
 
-Great for troubleshooting and IT diagnostics.
+<td width="33%" valign="top">
 
-👉 **Open script:**  
-[system_health_checker.py](./system_health_checker.py)
+<h3>Log File Analyzer</h3>
+<p>Counts ERROR, WARNING, and INFO entries in any log file.</p>
 
-</details>
+<a href="./log_file_analyzer.py">View Script</a>
 
----
+</td>
 
-<details>
-<summary><strong>7. Network Ping Monitor</strong> – (click to expand)</summary>
+</tr>
+<tr>
 
-Pings a list of hosts (from `hosts.txt` or default DNS servers) and shows UP/DOWN status.
+<td width="33%" valign="top">
 
-- Useful for quick connectivity tests  
-- Works on Windows and macOS  
+<h3>Auto-Backup Tool</h3>
+<p>Creates timestamped backups of any folder into a dedicated backups directory.</p>
 
-👉 **Open script:**  
-[network_ping_monitor.py](./network_ping_monitor.py)
+<a href="./auto_backup_tool.py">View Script</a>
 
-</details>
+</td>
 
----
+<td width="33%" valign="top">
 
-<details>
-<summary><strong>8. CSV to JSON Converter</strong> – (click to expand)</summary>
+<h3>Dashboard</h3>
+<p>A command-line menu for launching any script from a single interface.</p>
 
-Converts any CSV file into neatly formatted JSON.
+<a href="./dashboard.py">View Script</a>
 
-- Perfect for admin data tasks  
-- Preserves column-to-JSON mapping automatically  
+</td>
 
-👉 **Open script:**  
-[csv_to_json_converter.py](./csv_to_json_converter.py)
+<td width="33%" valign="top">
 
-</details>
+</td>
 
----
+</tr>
+</table>
 
-<details>
-<summary><strong>9. Log File Analyzer</strong> – (click to expand)</summary>
-
-Counts how many lines contain ERROR, WARNING, or INFO in any log file.
-
-- Helps with debugging and incident reporting  
-- Fast and lightweight  
-
-👉 **Open script:**  
-[log_file_analyzer.py](./log_file_analyzer.py)
-
-</details>
-
----
-
-<details>
-<summary><strong>10. Auto-Backup Tool</strong> – (click to expand)</summary>
-
-Creates timestamped backups of a folder and places them inside a dedicated `backups/` directory.
-
-- Protects important files  
-- Maintains historical versions  
-- Uses Python’s `copytree` to preserve structure  
-
-👉 **Open script:**  
-[auto_backup_tool.py](./auto_backup_tool.py)
-
-</details>
+<br>
 
 ---
 
 ## Status
 
-All scripts have been created, tested, and validated.  
-This repository will continue expanding with more automation tools and documentation.
+All scripts in this repository have been created, tested, and validated.  
+New tools and documentation will be added over time.
 
 ---
