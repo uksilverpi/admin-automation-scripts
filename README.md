@@ -1,35 +1,36 @@
 # Admin Automation Scripts
 
-This repository contains a collection of practical Python automation tools designed to reduce repetitive admin work, streamline workflows, and support real-world IT and data tasks.
+A collection of practical Python automation tools designed to reduce repetitive admin work, improve productivity, and support real-world IT, data, and system tasks.
 
-Every script is lightweight, readable, and created with everyday productivity in mind.
+Every script in this repository is lightweight, useful, and intentionally written for clarity and maintainability.
 
 ---
 
 ## What This Repo Includes
 
-A growing set of automation scripts that handle:
+A full suite of scripts covering:
 
 - File and folder organisation  
-- Document and naming consistency  
+- Naming consistency and batch renaming  
 - Data conversion  
 - System diagnostics  
 - Logging and reporting  
 - Backup and workflow safety  
+- General admin automation  
 
-These scripts demonstrate practical automation for IT support, admin work, and systems housekeeping.
+This repository continues to grow as more useful scripts are added.
 
 ---
 
 ## Skills Demonstrated
 
 - Python fundamentals  
-- Troubleshooting and problem-solving  
+- File handling & system operations  
+- Troubleshooting workflows  
+- Data parsing and conversion  
 - Process automation  
-- System information gathering  
-- File handling and data manipulation  
-- Clean, clear documentation  
-- Real-world usability  
+- Clean documentation and structured thinking  
+- IT support–friendly tooling  
 
 ---
 
@@ -51,95 +52,180 @@ Each script provides its own prompts and usage instructions.
 
 ---
 
-# Scripts Included
-
-Below is a complete collection of automation tools included in this repository.
+# Scripts Included  
+Click any script below to expand its details and open the file.
 
 ---
 
-### **1. Daily Log Generator (`daily_log_generator.py`)**
-Creates a Markdown log file for the current day with sections for Summary, Key Tasks, and Notes.  
+<details>
+<summary><strong>1. Daily Log Generator</strong> – (click to expand)</summary>
+
+Creates a Markdown log file for the current day with sections for Summary, Key Tasks, and Notes.
+
 - Automatically names the file using today’s date  
-- Prevents overwriting existing logs  
-- Perfect for journaling or tracking daily work  
+- Prevents overwriting an existing log  
+- Perfect for daily notes, journaling, or tracking work  
+
+👉 **Open script:**  
+[daily_log_generator.py](./daily_log_generator.py)
+
+</details>
 
 ---
 
-### **2. Template Generator (`template_generator.py`)**
-Generates a markdown file using a simple documentation template (Overview, Details, Next Steps).  
-- Title becomes the filename  
-- Date inserted automatically  
-- Useful for meetings, notes, and documentation  
+<details>
+<summary><strong>2. Template Generator</strong> – (click to expand)</summary>
+
+Creates a Markdown document using a clean boilerplate template (Overview, Details, Next Steps).
+
+- Title becomes a cleaned filename  
+- Automatically inserts today’s date  
+- Ideal for meeting notes and documentation  
+
+👉 **Open script:**  
+[template_generator.py](./template_generator.py)
+
+</details>
 
 ---
 
-### **3. Intelligent Folder Organiser (`intelligent_folder_organiser.py`)**
-Sorts files in the current directory into subfolders based on file extension.  
-- Creates folders like Images, Documents, Text, Archives  
-- Avoids overwriting existing files  
-- Great for cleaning messy folders  
+<details>
+<summary><strong>3. Intelligent Folder Organiser</strong> – (click to expand)</summary>
+
+Sorts files into extension-based folders such as Images, Documents, Text, Archives, etc.
+
+- Avoids overwriting  
+- Automatically creates missing folders  
+- Great for cleaning messy directories  
+
+👉 **Open script:**  
+[intelligent_folder_organiser.py](./intelligent_folder_organiser.py)
+
+</details>
 
 ---
 
-### **4. Multi-File Renamer (`multi_file_renamer.py`)**
-Renames all files with a chosen extension to a consistent pattern like:  
-`notes_1.txt`, `notes_2.txt`, `notes_3.txt`.  
-- Choose prefix and starting number  
-- Ensures organised, predictable filenames  
+<details>
+<summary><strong>4. Multi-File Renamer</strong> – (click to expand)</summary>
+
+Renames all files of a selected extension to a consistent numbered pattern.
+
+Example:
+
+`notes_1.txt`  
+`notes_2.txt`  
+`notes_3.txt`
+
+- Choose prefix  
+- Choose starting index  
+- Ensures tidy, organised filenames  
+
+👉 **Open script:**  
+[multi_file_renamer.py](./multi_file_renamer.py)
+
+</details>
 
 ---
 
-### **5. Duplicate File Detector (`duplicate_file_detector.py`)**
-Detects duplicate files by comparing SHA-256 hashes.  
-- Identifies duplicates even if filenames differ  
-- Useful for storage cleanup and shared drives  
+<details>
+<summary><strong>5. Duplicate File Detector</strong> – (click to expand)</summary>
+
+Detects duplicate files by hashing file contents (SHA-256), not by filename.
+
+- Finds duplicates even with different names  
+- Useful for storage clean-ups  
+- Helps manage shared drives  
+
+👉 **Open script:**  
+[duplicate_file_detector.py](./duplicate_file_detector.py)
+
+</details>
 
 ---
 
-### **6. System Health Checker (`system_health_checker.py`)**
-Generates a simple diagnostic report including:  
-- OS information  
-- Disk usage  
+<details>
+<summary><strong>6. System Health Checker</strong> – (click to expand)</summary>
+
+Produces a system report including:
+
+- OS version  
 - Python version  
-- Optional CPU/RAM usage (via psutil, if installed)  
+- Disk usage  
+- Optional CPU/RAM usage (via `psutil`)
 
-Ideal for IT support or troubleshooting.
+Great for troubleshooting and IT diagnostics.
 
----
+👉 **Open script:**  
+[system_health_checker.py](./system_health_checker.py)
 
-### **7. Network Ping Monitor (`network_ping_monitor.py`)**
-Pings a list of hosts (from `hosts.txt`, or default DNS servers) and shows which are UP or DOWN.  
-- Great for quick connectivity checks  
-- Supports Windows and macOS  
-
----
-
-### **8. CSV to JSON Converter (`csv_to_json_converter.py`)**
-Reads a CSV file and exports its contents as formatted JSON.  
-- Automatically maps columns  
-- Perfect for data cleaning or migrations  
+</details>
 
 ---
 
-### **9. Log File Analyzer (`log_file_analyzer.py`)**
-Counts ERROR, WARNING, and INFO entries in any log file.  
-- Shows total lines  
-- Breaks down severity levels  
-- Useful for debugging and incident reports  
+<details>
+<summary><strong>7. Network Ping Monitor</strong> – (click to expand)</summary>
+
+Pings a list of hosts (from `hosts.txt` or default DNS servers) and shows UP/DOWN status.
+
+- Useful for quick connectivity tests  
+- Works on Windows and macOS  
+
+👉 **Open script:**  
+[network_ping_monitor.py](./network_ping_monitor.py)
+
+</details>
 
 ---
 
-### **10. Auto-Backup Tool (`auto_backup_tool.py`)**
-Creates a timestamped backup of any folder.  
-- Backups stored in a separate `backups/` directory  
-- Preserves structure and files with `copytree`  
-- Ideal for safeguarding important work  
+<details>
+<summary><strong>8. CSV to JSON Converter</strong> – (click to expand)</summary>
+
+Converts any CSV file into neatly formatted JSON.
+
+- Perfect for admin data tasks  
+- Preserves column-to-JSON mapping automatically  
+
+👉 **Open script:**  
+[csv_to_json_converter.py](./csv_to_json_converter.py)
+
+</details>
+
+---
+
+<details>
+<summary><strong>9. Log File Analyzer</strong> – (click to expand)</summary>
+
+Counts how many lines contain ERROR, WARNING, or INFO in any log file.
+
+- Helps with debugging and incident reporting  
+- Fast and lightweight  
+
+👉 **Open script:**  
+[log_file_analyzer.py](./log_file_analyzer.py)
+
+</details>
+
+---
+
+<details>
+<summary><strong>10. Auto-Backup Tool</strong> – (click to expand)</summary>
+
+Creates timestamped backups of a folder and places them inside a dedicated `backups/` directory.
+
+- Protects important files  
+- Maintains historical versions  
+- Uses Python’s `copytree` to preserve structure  
+
+👉 **Open script:**  
+[auto_backup_tool.py](./auto_backup_tool.py)
+
+</details>
 
 ---
 
 ## Status
 
-All scripts are functional and tested.  
-This repository will continue to grow with more real-world IT and admin automation tools.
+All scripts have been created, tested, and validated.  
+This repository will continue expanding with more automation tools and documentation.
 
 ---
