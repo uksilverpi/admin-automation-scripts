@@ -229,3 +229,15 @@ All scripts have been created, tested, and validated.
 This repository will continue expanding with more automation tools and documentation.
 
 ---
+<details>
+<summary><b>Daily Log Generator</b></summary>
+
+<div style="padding:10px; border:1px solid #ddd; border-radius:6px;">
+
+Description here...
+
+[Open Script](./daily_log_generator.py)
+
+</div>
+</details>
+
